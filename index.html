@@ -12,7 +12,7 @@
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#top"><img src="assets/nimodd/logo-primary.jpg" alt="Nimodd — Independent Game Studio"></a>
+    <a class="brand" href="#top"><img src="assets/nimodd/logo-primary.png" alt="Nimodd — Independent Game Studio"></a>
     <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
     <nav class="nav"><a href="#studio">Studio</a><a href="#games">Nos jeux</a><a href="#contact">Contact</a></nav>
   </header>
@@ -43,7 +43,10 @@
     <section id="games" class="section games-section">
       <div class="section-heading split-heading"><div><p class="eyebrow teal">NOS JEUX</p><h2>Des univers à découvrir.</h2></div><p>Premier voyage : un petit fantôme cherche la tombe qui lui appartient.</p></div>
       <article class="game-card">
-        <img src="assets/tombward/banner.png" alt="Tombward">
+        <picture>
+          <source media="(max-width: 800px)" srcset="assets/tombward/mobile-hero.png">
+          <img src="assets/tombward/banner.png" alt="Tombward">
+        </picture>
         <div class="game-card-overlay"></div>
         <div class="game-card-content"><span class="status">Bientôt sur Google Play</span><h3>Tombward</h3><p>Un puzzle d’exploration dans un cimetière oublié. Compte tes actions, déjoue les pièges et rassemble les fragments de ton passé.</p><a class="button button-light" href="tombward/">Découvrir Tombward</a></div>
       </article>
@@ -52,7 +55,7 @@
 
     <section id="contact" class="contact-section"><div><p class="eyebrow">CONTACT</p><h2>Une question, une idée<br>ou envie de suivre Nimodd ?</h2></div><a class="button button-primary" href="mailto:nimodd.contact@gmail.com">nimodd.contact@gmail.com</a></section>
   </main>
-  <footer class="footer"><img src="assets/nimodd/logo-symbol.jpg" alt="Symbole Nimodd"><p>© <span id="year"></span> Nimodd. Independent Game Studio.</p><a href="tombward/privacy.html">Confidentialité Tombward</a></footer>
+  <footer class="footer"><img src="assets/nimodd/logo-symbol.png" alt="Symbole Nimodd"><p>© <span id="year"></span> Nimodd. Independent Game Studio.</p><a href="tombward/privacy.html">Confidentialité Tombward</a></footer>
   <script src="assets/js/main.js"></script>
 </body>
 </html>
